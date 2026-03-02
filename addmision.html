@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>KARE | Admissions</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin:0; }
+    header { background:#004080; color:white; padding:20px; }
+    nav a { color:white; margin:0 15px; text-decoration:none; }
+    .hero { background:#e0f0ff; text-align:center; padding:50px; }
+    .hero h1 { font-size:2.5em; }
+    .section { padding:40px; max-width:800px; margin:auto; }
+    form { background:#f9f9f9; padding:20px; border-radius:8px; }
+    label { display:block; margin:10px 0 5px; }
+    input, select, textarea { width:100%; padding:10px; margin-bottom:15px; border:1px solid #ccc; border-radius:4px; }
+    button { background:#004080; color:white; padding:10px 20px; border:none; border-radius:4px; cursor:pointer; }
+    button:hover { background:#003060; }
+    footer { background:#333; color:white; text-align:center; padding:20px; margin-top:40px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h2>KARE</h2>
+    <nav>
+      <a href="MARI.html">About</a>
+      <a href="accadamic.html">Academics</a>
+      <a href="addmision.html">Admissions</a>
+      <a href="camp.html">Campus Life</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <h1>Admissions 2026</h1>
+    <p>Join us to shape your future with KARE.</p>
+  </div>
+
+  <div class="section">
+    <h2>Application Form</h2>
+    <form>
+      <label for="fullname">Full Name:</label>
+      <input type="text" id="fullname" name="fullname" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="dob">Date of Birth:</label>
+      <input type="date" id="dob" name="dob" required>
+
+      <label for="course">Course Applying For:</label>
+      <select id="course" name="course" required>
+        <option value="">--Select--</option>
+        <option>B.Sc Computer Science</option>
+        <option>B.A English</option>
+        <option>B.Com</option>
+        <option>B.Tech Mechanical</option>
+      </select>
+
+      <label for="documents">Upload Documents:</label>
+      <input type="file" id="documents" name="documents" multiple>
+
+      <label for="message">Additional Information:</label>
+      <textarea id="message" name="message" rows="4"></textarea>
+
+      <button type="submit">Submit Application</button>
+    </form>
+  </div>
+
+  <footer>
+    <p>©KARE | Contact:www.kalasaligam.ac.in</p>
+  </footer>
+</body>
+</html>
